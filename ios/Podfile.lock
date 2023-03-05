@@ -1,0 +1,38 @@
+PODS:
+  - esptouch_flutter (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_blue (0.0.1):
+    - Flutter
+    - flutter_blue/Protos (= 0.0.1)
+  - flutter_blue/Protos (0.0.1):
+    - Flutter
+    - Protobuf
+  - Protobuf (3.21.9)
+
+DEPENDENCIES:
+  - esptouch_flutter (from `.symlinks/plugins/esptouch_flutter/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_blue (from `.symlinks/plugins/flutter_blue/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Protobuf
+
+EXTERNAL SOURCES:
+  esptouch_flutter:
+    :path: ".symlinks/plugins/esptouch_flutter/ios"
+  Flutter:
+    :path: Flutter
+  flutter_blue:
+    :path: ".symlinks/plugins/flutter_blue/ios"
+
+SPEC CHECKSUMS:
+  esptouch_flutter: e73da8791abdc4aa4a24ccda75f9505e1aa05474
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_blue: be3f2be2f5fda254d174896c0738b2fcb6b1073e
+  Protobuf: 02524ec14183fe08fb259741659e79683788158b
+
+PODFILE CHECKSUM: 79eb1843e81a6627b9aa44769e5773b2c7324c46
+
+COCOAPODS: 1.11.3
